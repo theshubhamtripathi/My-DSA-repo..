@@ -3493,7 +3493,7 @@ int main(){
 //M[i,j]=0 if i!=j
 //in diagonal martrix we have mostly zero elemts so to save all is not necessary we can just store all the diagonal elements in a 1d array 
 
-/*#include<stdio.h>
+#include<stdio.h>
 struct matrix{
     int A[10];
     int n;
@@ -3533,7 +3533,7 @@ int main(){
     set(&m,4,4,1);
     display(m);
     return 0;
-} */
+} 
 
 
 
